@@ -73,4 +73,5 @@ function mag_catalogo_woocommerce() {
     <?php
     return ob_get_clean();
 }
-add_shortcode('catalogo_mag', 'mag_catalogo_woocommerce');
+add_shortcode('catalogo', 'catalogo_woocommerce');
+
