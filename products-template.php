@@ -1,5 +1,5 @@
 // Shortcode para mostrar catálogo dinámico WooCommerce
-function mag_catalogo_woocommerce() {
+function catalogo_woocommerce() {
     ob_start();
     ?>
     <div class="product-grid">
@@ -74,4 +74,5 @@ function mag_catalogo_woocommerce() {
     return ob_get_clean();
 }
 add_shortcode('catalogo', 'catalogo_woocommerce');
+
 
